@@ -1,25 +1,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-	android:orientation="vertical"
-    android:gravity="center">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@drawable/bg_main">
 
-	<EditText
-		android:id="@+id/e1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:hint="قیمت انس جهانی طلا"/>
-		
 
-	<EditText
-		android:id="@+id/e2"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:hint="قیمت دلار به تومان" />
-	   
-	<Button
-		android:id="@+id/b1"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="قیمت ربع سکه" />
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:hint="قیمت انس جهانی طلا"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/edit_bg"
+        android:inputType="numberDecimal"/>
+
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="35dp"
+        android:hint="قیمت دلار به تومان"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/edit_bg"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="قیمت ربع سکه"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_bg"/>
+
 </LinearLayout>
